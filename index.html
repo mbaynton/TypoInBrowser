@@ -1,0 +1,11 @@
+<html>
+<head>
+    <script src="Typo.js/typo/typo.js"></script>
+    <script>
+        var dictionary = new Typo("en_US", null, null, {dictionaryPath: 'http://home.mbaynton.com/dictionaries'});
+        var is_spelled_correctly = dictionary.check("misspelled");
+        alert(is_spelled_correctly);
+    </script>
+</head>
+<body />
+</html>
